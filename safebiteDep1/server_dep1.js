@@ -25,7 +25,7 @@ app.post('/process_input', (req, res) => {
 
   axios.request(config)
     .then((response) => {
-      res.json({ success: true, message: 'Data processed successfully', data: response.data });
+      res.json({ success: true, data: response.data });
     })
     .catch((error) => {
       console.error(error);
