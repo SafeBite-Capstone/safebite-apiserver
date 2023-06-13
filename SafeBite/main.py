@@ -25,7 +25,7 @@ app = Flask(__name__)
 model = load_model('model.h5')
 
 # Load data
-data = pd.read_csv('Gabungan1.csv')
+data = pd.read_csv('safebite.csv')
 
 # Separate features (Ingredients) and labels (Potential Allergies, Potential Diseases, Halal/Haram)
 X = data['Ingredients']
