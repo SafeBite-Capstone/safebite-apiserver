@@ -7,13 +7,13 @@ const app = express();
 const port = 3000;
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD_9Z_WF1S9Sp67hlI8tUyNVr_499cvW0Y",
-  authDomain: "safebite-abd6c.firebaseapp.com",
-  projectId: "safebite-abd6c",
-  storageBucket: "safebite-abd6c.appspot.com",
-  messagingSenderId: "748801823602",
-  appId: "1:748801823602:web:d7bbc2ab72c188b817c3eb",
-  measurementId: "G-SFCCRD39SF"
+  apiKey: "AIzaSyD_9Z_WF1S9Sp67hlI8tUyNVr_########",
+  authDomain: "safebite-#####.firebaseapp.com",
+  projectId: "safebite-#####",
+  storageBucket: "safebite-#####.appspot.com",
+  messagingSenderId: "74880182####",
+  appId: "1:748801823602:web:d7bbc2ab72c188b81####",
+  measurementId: "G-SFCCRD####"
 };
 // Konfigurasi Firebase Admin SDK
 const serviceAccount = require('./safebite-serviceaccountKey.json');
