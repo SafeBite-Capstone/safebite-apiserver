@@ -13,6 +13,7 @@ In API using Python:
 - tensorflow
 - numpy
 - pandas
+- scikit-learn
 
 In API using JavaScript:
 - Expressjs
